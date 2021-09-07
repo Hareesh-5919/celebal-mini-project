@@ -1,0 +1,43 @@
+
+POST http://localhost:3005/register/
+Content-Type: application/json
+
+{
+  "username": "nikhil9",
+  "password": "nikhil@456",
+  "name": "nikhil"
+}
+#### 
+
+
+GET http://localhost:3005/users/
+#####
+
+
+
+POST http://localhost:3005/login/
+Content-Type: application/json
+
+{
+  "username": "nikhil9",
+  "password": "nikhil@456"
+}
+###
+
+
+GET http://localhost:3005/dailycases/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pa2hpbDkiLCJpYXQiOjE2MzEwMDg4NDN9.uZVoRX5Rn6pGGtFUnZswxWsWx6dVlnxiumUKiy7bmrk
+###
+
+
+GET http://localhost:3005/totalcases/
+###
+
+
+GET http://localhost:3005/totalactive/
+###
+
+
+GET http://localhost:3005/totaldeaths/
+###
+
