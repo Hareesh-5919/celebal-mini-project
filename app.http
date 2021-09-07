@@ -31,13 +31,16 @@ Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pa
 
 
 GET http://localhost:3005/totalcases/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pa2hpbDkiLCJpYXQiOjE2MzEwMDg4NDN9.uZVoRX5Rn6pGGtFUnZswxWsWx6dVlnxiumUKiy7bmrk
 ###
 
 
 GET http://localhost:3005/totalactive/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pa2hpbDkiLCJpYXQiOjE2MzEwMDg4NDN9.uZVoRX5Rn6pGGtFUnZswxWsWx6dVlnxiumUKiy7bmrk
 ###
 
 
 GET http://localhost:3005/totaldeaths/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5pa2hpbDkiLCJpYXQiOjE2MzEwMDg4NDN9.uZVoRX5Rn6pGGtFUnZswxWsWx6dVlnxiumUKiy7bmrk
 ###
 
